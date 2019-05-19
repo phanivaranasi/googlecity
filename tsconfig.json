@@ -1,9 +1,11 @@
 {
   "compileOnSave": false,
-  "include": [
-    "./src/index.ts"
-  ],
   "compilerOptions": {
+    "paths": {
+      "component": [
+        "./src"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
